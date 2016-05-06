@@ -15,6 +15,7 @@ class GameScene extends GameUtil.BassPanel
     {
         this.showbg();
         this.showboat();
+        this.addChild(new TickPanel());
     }
 
     private showbg()

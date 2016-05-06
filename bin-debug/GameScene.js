@@ -10,6 +10,7 @@ var GameScene = (function (_super) {
     p.init = function () {
         this.showbg();
         this.showboat();
+        this.addChild(new TickPanel());
     };
     p.showbg = function () {
         var dic = GameUtil.createRect(0, 0, this.mStageW, this.mStageH, 1, 0xffffff);
